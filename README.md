@@ -14,7 +14,7 @@
   <img src="https://wytnij-wklej.pl/wp-content/uploads/2015/05/grafika-rastrowa-a-wektorowa.png" width="300">
   <h3 align="center"><strong>Grafika rastrowa</strong></h3>
     <a href="https://youtu.be/GSOy8d_HjNI">  </a> (potocznie bitmapa) – prezentacja obrazu za pomocą matrycy punktów w postaci prostokątnej siatki odpowiednio kolorowanych pikseli na monitorze komputera, drukarce lub innym urządzeniu wyjściowym. W systemach komputerowych grafika rastrowa jest przechowywana w sposób skompresowany (stratnie lub bezstratnie) albo nieskompresowany w wielu formatach plików graficznych.
-
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GSOy8d_HjNI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Grafika rastrowa została opatentowana pierwszy raz przez firmę Texas Instruments w latach 70. i aktualnie jest wszechobecną formą przedstawiania obrazu cyfrowego. Zdjęcia z aparatu cyfrowego są przykładem grafiki rastrowej.
 <p> Przykładem takiej grafiki jest:
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rgb-raster-image.svg/450px-Rgb-raster-image.svg.png" width="300"></center>
