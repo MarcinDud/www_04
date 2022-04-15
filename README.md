@@ -13,7 +13,7 @@
   <img src="https://roznice.com/wp-content/uploads/2013/11/rastrowa-wektorowa.jpg" width="300">
   <img src="https://wytnij-wklej.pl/wp-content/uploads/2015/05/grafika-rastrowa-a-wektorowa.png" width="300">
   <h3 align="center"><strong>Grafika rastrowa</strong></h3>
-    <a href="https://pl.wikipedia.org/wiki/Grafika_rastrowa"> <img src="https://roznice.com/wp-content/uploads/2013/11/rastrowa-wektorowa.jpg" width="300"> </a> (potocznie bitmapa) – prezentacja obrazu za pomocą matrycy punktów w postaci prostokątnej siatki odpowiednio kolorowanych pikseli na monitorze komputera, drukarce lub innym urządzeniu wyjściowym. W systemach komputerowych grafika rastrowa jest przechowywana w sposób skompresowany (stratnie lub bezstratnie) albo nieskompresowany w wielu formatach plików graficznych.
+    <a href="https://youtu.be/GSOy8d_HjNI"> <img src="https://roznice.com/wp-content/uploads/2013/11/rastrowa-wektorowa.jpg" width="300"> </a> (potocznie bitmapa) – prezentacja obrazu za pomocą matrycy punktów w postaci prostokątnej siatki odpowiednio kolorowanych pikseli na monitorze komputera, drukarce lub innym urządzeniu wyjściowym. W systemach komputerowych grafika rastrowa jest przechowywana w sposób skompresowany (stratnie lub bezstratnie) albo nieskompresowany w wielu formatach plików graficznych.
 
 Grafika rastrowa została opatentowana pierwszy raz przez firmę Texas Instruments w latach 70. i aktualnie jest wszechobecną formą przedstawiania obrazu cyfrowego. Zdjęcia z aparatu cyfrowego są przykładem grafiki rastrowej.
 <p> Przykładem takiej grafiki jest:
