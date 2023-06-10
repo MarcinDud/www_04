@@ -1,27 +1,91 @@
-# www_04
-<html>
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-             <meta charset="utf-8">
-  
-  
-   
-  </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulatro w JS</title>
+    <script>
+        function suma()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseFloat(a);
+            var b = document.getElementById("b").value;
+            b = parseFloat(b);
+            var suma = a + b;document.getElementById("wynik").innerHTML=suma;    
+        }
+        function roznica()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseFloat(a);
+            var b = document.getElementById("b").value;
+            b = parseFloat(b);
+            var roznica = a - b;
+            document.getElementById("wynik").innerHTML=roznica;    
+        }
+        function mnozenie()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseFloat(a);
+            var b = document.getElementById("b").value;
+            b = parseFloat(b);
+            var mnozenie = a * b;document.
+getElementById("wynik").innerHTML=mnozenie;    
+        }
+        function dzielenie()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseFloat(a);
+            var b = document.getElementById("b").value;
+            b = parseFloat(b);
+            var dzielenie = a / b;
+            document.getElementById("wynik").innerHTML=dzielenie;    
+        }
+        function modulo()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseFloat(a);
+            var b = document.getElementById("b").value;
+            b = parseFloat(b);
+            var modulo = a % b;
+document.getElementById("wynik").innerHTML=modulo;    
+        }
+        function dzielenie_c()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseInt(a);
+            var b = document.getElementById("b").value;
+            b = parseInt(b);
+            var dzielenie_c = a / b;
+            dzielenie_c = parseInt(dzielenie_c);
+            document.getElementById("wynik").innerHTML=dzielenie_c;    
+        }
+        function potengowanie()
+        {
+            var a = document.getElementById("a").value;   
+            a = parseFloat(a);
+            var b = document.getElementById("b").value;
+            b = parseFloat(b);
+            var potengowanie = Math.pow(a,b);
+            document.getElementById("wynik").innerHTML=potengowanie;    
+        }
+</script>
+</head>
 <body>
-  
-  
- <h1 align="center">Grafika komputerowa</h1>
-  <img src="https://roznice.com/wp-content/uploads/2013/11/rastrowa-wektorowa.jpg" width="300">
-  <img src="https://wytnij-wklej.pl/wp-content/uploads/2015/05/grafika-rastrowa-a-wektorowa.png" width="300">
-  <h3 align="center"><strong>Grafika rastrowa</strong></h3>
-    <a href="https://youtu.be/GSOy8d_HjNI">  </a> (potocznie bitmapa) – prezentacja obrazu za pomocą matrycy punktów w postaci prostokątnej siatki odpowiednio kolorowanych pikseli na monitorze komputera, drukarce lub innym urządzeniu wyjściowym. W systemach komputerowych grafika rastrowa jest przechowywana w sposób skompresowany (stratnie lub bezstratnie) albo nieskompresowany w wielu formatach plików graficznych.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GSOy8d_HjNI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Grafika rastrowa została opatentowana pierwszy raz przez firmę Texas Instruments w latach 70. i aktualnie jest wszechobecną formą przedstawiania obrazu cyfrowego. Zdjęcia z aparatu cyfrowego są przykładem grafiki rastrowej.
-<p> Przykładem takiej grafiki jest:
-<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rgb-raster-image.svg/450px-Rgb-raster-image.svg.png" width="300"></center>
-    
-<h3 align="center"><strong>Grafika wektorowa</strong></h3>
-    <iframe widht="400" height="390" src="http://youtu.be/GSOy8d_HjNI" frameborder="0" allowfullscreen></iframe> <strong><em>Grafika wektorowa</em></strong></a> – jeden z dwóch podstawowych rodzajów grafiki komputerowej, w której obraz opisany jest za pomocą figur geometrycznych lub brył geometrycznych, umiejscowionych w matematycznie zdefiniowanym układzie współrzędnych, odpowiednio dwu- lub trójwymiarowym
-<p> Przykładem takiej grafiki jest:
-<center><img src="https://st3.depositphotos.com/14846838/18822/v/1600/depositphotos_188220866-stock-illustration-beach-flat-vector-icon.jpg" width="300"></center>
+    <p1>PROSTY KALKULATOR</p1>
+    <p>podaj wartosc a =</p>
+    <input type="text" value="0" id="a">
+    <p>podaj wartosc b =</p>
+    <input type="text" value="0" id="b">
+    <div id="wynik">TU BÄDZIE WYNIK</div>
+    <input type="button" value="+" onclick="suma()">
+    <input type="button" value="-" onclick="roznica()">
+    <input type="button" value="*" onclick="mnozenie()">
+    <input type="button" value="/" onclick="dzielenie()">
+    <input type="button" value="%" onclick="modulo()">
+    <input type="button" value="//" onclick="dzielenie_c()">
+    <input type="button" value="**" onclick="potengowanie()">
 </body>
 </html>
+
+
